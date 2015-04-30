@@ -1,0 +1,23 @@
+2015-04-30 08:33:58 Notice: Notice (8): Undefined variable: posts in [/var/www/html/cakephp302/config/Migrations/20150430083102_create_posts_table.php, line 26]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+CreatePostsTable::up() - ROOT/config/Migrations/20150430083102_create_posts_table.php, line 26
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 116
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 210
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 186
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 100
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 142
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 57
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Symfony/Component/Console/Command/Command.php, line 257
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Symfony/Component/Console/Application.php, line 874
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Symfony/Component/Console/Application.php, line 195
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Symfony/Component/Console/Application.php, line 126
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 71
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 391
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 204
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 175
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 126
+[main] - ROOT/bin/cake.php, line 33
+
+
+
